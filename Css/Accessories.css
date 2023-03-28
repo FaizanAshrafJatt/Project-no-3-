@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Golos+Text:wght@700&family=Oxygen&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.normal-family{
+
+font-family: 'Cabin', sans-serif;
+}
+.bold-family{
+
+font-family: 'Golos Text', sans-serif;
+}
+.normal-family2{
+
+
+font-family: 'Oxygen', sans-serif;
+}
+.normal-family3{
+font-family: 'Inter', sans-serif;
+}
+.bold-family2{
+font-family: 'Secular One', sans-serif;
+} 
+.cr:hover{
+  color: rgb(226, 82, 82) !important;
+}
+
+@media screen and (min-width : 992px)
+{
+  .me-lg-5 {
+    margin-right: 3rem !important;
+  }
+}
+@media screen  and  (max-width : 992px){
+  
+}
+@media  screen and (min-width: 1400px)
+{
+.container{
+  max-width: 1125px;
+}
+}
