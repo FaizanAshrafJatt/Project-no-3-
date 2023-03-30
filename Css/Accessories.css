@@ -24,8 +24,12 @@ font-family: 'Inter', sans-serif;
 .bold-family2{
 font-family: 'Secular One', sans-serif;
 } 
+.cr{
+  transition: 500ms;
+}
 .cr:hover{
-  color: rgb(226, 82, 82) !important;
+  color:#ff5c97 !important;
+
 }
 
 @media screen and (min-width : 992px)
@@ -33,13 +37,111 @@ font-family: 'Secular One', sans-serif;
   .me-lg-5 {
     margin-right: 3rem !important;
   }
+  .create-padding {
+    padding-top: 240px;
+    padding-bottom: 190px;
+  }
 }
 @media screen  and  (max-width : 992px){
+  .create-padding {
+    padding-top: 120px;
+    padding-bottom: 95px;
+  }
+  .fa-quote-left ,  .fa-quote-right{
+    display: none;
+  }
+  .hero__caption{
+    margin-top: 74px;
+  }
+  .show ul li a {
+    color: white;
+  }
+  .show{
   
+    font-size: 16px;
+
+padding: 5px;
+clear: both;
+
+margin-left: 10px;
+font-size: .875em;
+    
+  }
+  .f-right{
+    float: none;
+  }
+  .nav-main{
+    position: absolute;
+    top: 10px;
+    background-color: rgb(36, 35, 35);
+  }
+  .nav-button{
+    height: 50px;
+    background-color: rgb(36, 35, 35);
+  }
+  .navbar-toggler{
+    position: absolute;
+top: 15px;
+right: 10px;
+border: none !important;
+outline: none !important;
+color: white !important;
+background-color: rgb(26, 24, 24);
+  }
+  .navbar-toggler-icon{
+    color: white !important;
+  }
 }
+
 @media  screen and (min-width: 1400px)
 {
 .container{
   max-width: 1125px;
 }
+}
+.button{
+  background: #ff5c97;
+  -moz-user-select: none;
+  text-transform: capitalize;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 0;
+  margin-bottom: 0;
+  padding: 30px 44px;
+  border-radius: 5px;
+  min-width: 200px;
+
+  transition: color 0.4s linear;
+  position: relative;
+  z-index: 1;
+  border: 0;
+  overflow: hidden;
+  margin: 0
+}
+.light-color{
+  color: rgba(0, 0, 0, 0.404);
+}
+a{
+  text-decoration: none;
+
+}
+li{
+  list-style-type: none;
+}
+.blue-color{
+  color: #2b4b80;
+}
+.font-size{
+  color: #707b8e;
+font-size: 16px;
+line-height: 30px;
+font-family: 'Inter', sans-serif;
+font-weight: normal;
+}
+ul {
+  padding-left: 0rem !important;
 }
