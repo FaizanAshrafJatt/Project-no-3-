@@ -41,8 +41,47 @@ font-family: 'Secular One', sans-serif;
     padding-top: 240px;
     padding-bottom: 190px;
   }
+  .create-padding1 {
+    padding-top: 53px;
+    padding-bottom: 190px;
+  }
+
 }
 @media screen  and  (max-width : 992px){
+  .navbar-nav li  .dropdown-menu{
+    background-color: rgba(0, 0, 0, 0.623);
+  }
+  
+  .padding {
+    
+    padding-bottom: 64px;
+  }
+  .k {
+    font-size: 40px;
+    padding: 2px 24px;
+  }
+  .single-generating{
+    padding: 39px 6px !important;
+  }
+  .contact-form {
+    margin-top: 64px;
+  }
+  .project{
+    padding: 44px 17px !important;
+  }
+  .footer-area {
+    padding: 157px 13px !important;
+  }
+  .we-create-img{
+    display: none;
+  }
+  .titleee{
+    width: 100%;
+  }
+  .titlee {
+    width: 100%;
+    color: #2b4b80;
+  }
   .create-padding {
     padding-top: 120px;
     padding-bottom: 95px;
@@ -73,15 +112,17 @@ font-size: .875em;
   .nav-main{
     position: absolute;
     top: 10px;
+    z-index: 2;
     background-color: rgb(36, 35, 35);
   }
   .nav-button{
     height: 50px;
     background-color: rgb(36, 35, 35);
   }
+
   .navbar-toggler{
     position: absolute;
-top: 15px;
+top: 9px;
 right: 10px;
 border: none !important;
 outline: none !important;
@@ -90,6 +131,9 @@ background-color: rgb(26, 24, 24);
   }
   .navbar-toggler-icon{
     color: white !important;
+  }
+  .blog_item{
+    padding: 0 !important;
   }
 }
 
@@ -144,4 +188,7 @@ font-weight: normal;
 }
 ul {
   padding-left: 0rem !important;
+}
+input{
+  outline: none;
 }
