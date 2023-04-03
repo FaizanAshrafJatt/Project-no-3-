@@ -47,6 +47,21 @@ font-family: 'Secular One', sans-serif;
   }
 
 }
+@media screen  and  (max-width : 552px){
+  .container{
+    width: 102% !important;
+  }
+  .margin {
+    margin-top: 0px;
+  }
+  .para{
+    line-height: 1.5 !important;
+  }
+  .single-visited .image-section img{
+    width: 105% !important;
+  }
+
+}
 @media screen  and  (max-width : 992px){
   .navbar-nav li  .dropdown-menu{
     background-color: rgba(0, 0, 0, 0.623);
@@ -70,10 +85,10 @@ font-family: 'Secular One', sans-serif;
     padding: 44px 17px !important;
   }
   .footer-area {
-    padding: 157px 13px !important;
+    padding: 157px 13px 72px !important;
   }
-  .we-create-img{
-    display: none;
+  .foot-row {
+    padding-bottom: 0px ;
   }
   .titleee{
     width: 100%;
@@ -137,11 +152,16 @@ background-color: rgb(26, 24, 24);
   }
 }
 
-@media  screen and (min-width: 1400px)
+@media  screen and (min-width: 1500px)
 {
 .container{
   max-width: 1125px;
 }
+}
+@media screen and (min-width : 2000px){
+  .container{
+    max-width: 1700px;
+  }
 }
 .button{
   background: #ff5c97;
