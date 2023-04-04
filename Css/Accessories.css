@@ -63,6 +63,18 @@ font-family: 'Secular One', sans-serif;
 
 }
 @media screen  and  (max-width : 992px){
+  .owl-carousel .owl-item img {
+    display: block;
+    width: 18% !important;
+  }
+  .sticky-bar {
+    background-color: transparent !important;
+    width: 92% !important;
+    position: fixed;
+    top: 4px;
+    left: 15px;
+  }
+
   .navbar-nav li  .dropdown-menu{
     background-color: rgba(0, 0, 0, 0.623);
   }

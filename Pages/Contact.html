@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Index</title>
+  <title>Contact</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
   integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
   crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -13,6 +13,10 @@
   integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
   <link rel="stylesheet" href="../Css/style.css">
   <link rel="stylesheet" href="../Css/Accessories.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 <body>
   <header class="container">
@@ -247,4 +251,35 @@
       <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous">
       
       </script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+        <script>
+          $(document).ready(function () {
+            var stickyNavTop = $('.navbar').offset().top;
+            var stickyNav = function () {
+              var scrollTop = $(window).scrollTop();
+              if (scrollTop > stickyNavTop) {
+                $('.navbar').addClass('sticky-bar');
+              } else {
+                $('.navbar').removeClass('sticky-bar');
+              }
+            };
+    
+            stickyNav();
+            $(window).scroll(function () {
+              stickyNav();
+            });
+          });
+    
+          var owl = $(".owl-carousel");
+          owl.owlCarousel({
+            items: 1,
+            margin: 10,
+            loop: true,
+            nav: true
+          });
+    
+    
+    
+        </script>s
         </body>
