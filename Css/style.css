@@ -2,12 +2,13 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-}
+
 
 .bg-img {
   background-image: url('../images/h1_hero.png');
   background-position: 23% 16%;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .pink-button {
@@ -22,7 +23,7 @@ z-index: 5;
   font-size: 22px;
 }
 .btn:hover{
-  border: 1px solid #ff5c97;
+ 
   background-color: #ec4683;
   transition: 300ms;
   color: white;
@@ -105,7 +106,7 @@ transition: all 1s;
 }
 
 .section-title {
-  margin-top: 24% !important;
+  margin-top: 9% !important;
 }
 .padding-top .single-do{
   padding-top: 31px;
@@ -853,4 +854,5 @@ height: 42px !important;
 .search-button2:hover {
   background-color: #ff5c97 !important;
   color: white !important;
+}
 }
